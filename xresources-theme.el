@@ -67,7 +67,8 @@
    `(header-line ((t (:foreground ,yellow
                                   :background ,background
                                   :box (:line-width -1 :style released-button)))))
-   `(highlight ((t (:background ,background))))
+   `(highlight ((t (:background "#3E3D31"))))
+   `(lazy-highlight ((t (:background "#3E3E3E"))))
    `(success ((t (:foreground ,green :weight bold))))
    `(warning ((t (:foreground ,red :weight bold))))
 
